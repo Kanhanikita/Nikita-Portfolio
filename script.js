@@ -1,6 +1,6 @@
 /* variable typing animation script */
 var typed = new Typed(".typing",{
-    strings:["","Computer Science Major","Web Developer","Web Designer","Software Developer","2nd year Student"],
+    strings:["","Computer Science Major","Web Developer","Web Designer","Software Developer","3rd year Student"],
     typeSpeed:70,
     BackSpeed:50,
     loop:true
