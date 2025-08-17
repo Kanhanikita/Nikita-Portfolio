@@ -132,13 +132,13 @@ section{
   line-height: 1.8;
 }
 
-.home-image img{
-  width: 25vw;
-  height: 25vw;
-  border-radius:60% ;
-  box-shadow: 0 0 25px var(--main);
-  transition: 0.4s ease-in-out;
-   position: relative;
+.home-image img {
+  width: 40vw;        
+  height: auto;       
+  max-width: 400px;   
+  border-radius: 60%;
+  object-fit: cover;
+  position: relative;
   z-index: 2;
 }
 
@@ -512,4 +512,5 @@ html {
     transform: translateY(-2000px);
   }
 }
+
 
