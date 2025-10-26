@@ -11,7 +11,7 @@
   --bg: black;
   --bg2: #101010;
   --text: white;
-  --main: rgb(66, 160, 247);
+  --main: rgb(75, 198, 236);
 
 }
 
@@ -58,7 +58,7 @@ display: none;
 }
 
 span{
-  background:linear-gradient(270deg, rgba(101,180,233,1) 0%, rgba(3,93,196,1) 54%, rgba(14,0,255,1) 100%);
+  background:linear-gradient(270deg, rgb(27, 9, 225) 0%, rgb(91, 201, 234) 100%);
   background-clip: text;
   color: transparent;
 }
@@ -81,7 +81,7 @@ span{
   font-size: 1.8rem;
   padding: 1rem 2rem;
   border-radius: 3rem;
-  background:linear-gradient(270deg, rgba(101,180,233,1) 0%, rgba(3,93,196,1) 54%, rgba(14,0,255,1) 100%);
+  background:linear-gradient(270deg, rgb(27, 9, 225) 0%, rgb(91, 201, 234) 100%);
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -103,8 +103,6 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  z-index: 1;
   gap: 15rem;
 }
 .home-content{
@@ -132,14 +130,12 @@ section{
   line-height: 1.8;
 }
 
-.home-image img {
-  width: 40vw;        
-  height: auto;       
-  max-width: 400px;   
-  border-radius: 60%;
-  object-fit: cover;
-  position: relative;
-  z-index: 2;
+.home-image img{
+  width: 25vw;
+  height: 25vw;
+  border-radius:60% ;
+  box-shadow: 0 0 25px var(--main);
+  transition: 0.4s ease-in-out;
 }
 
 .home-image img:hover{
@@ -241,16 +237,13 @@ margin: 3rem 2rem;
 }
 .projectbox{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(350px,2fr));
   place-items: center;
   gap: 3rem;
   row-gap: 5rem;
 }
 .projectcard{
   display: flex;
-  width: 450px;
-  
-  height: 600px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -272,8 +265,8 @@ margin: 3rem 2rem;
 }
 
 .projectcard img{
-  min-height: 200px;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
   border-radius: 2rem;
   object-fit: cover;
 }
@@ -290,7 +283,7 @@ margin: 3rem 2rem;
   font-size: 7rem;
   margin: 5rem 0;
   font-weight: 900;
-  background:linear-gradient(270deg, rgba(101,180,233,1) 0%, rgba(3,93,196,1) 54%, rgba(14,0,255,1) 100%);
+  background:linear-gradient(90deg, rgb(27, 9, 225) 0%, rgb(91, 201, 234) 100%);
   background-clip: text;
   color: transparent;
 }
@@ -301,7 +294,7 @@ margin: 3rem 2rem;
 
 .contact h2{
   margin-bottom: 3rem;
-  background:linear-gradient(270deg, rgba(101,180,233,1) 0%, rgba(3,93,196,1) 54%, rgba(14,0,255,1) 100%);
+  background:linear-gradient(90deg,rgb(27, 9, 225) 0%, rgb(91, 201, 234) 100%);
   background-clip: text;
   color: transparent;
 }
@@ -494,15 +487,7 @@ html {
   box-shadow: 1472px 672px #FFF , 62px 1637px #FFF , 1757px 390px #FFF , 128px 699px #FFF , 405px 440px #FFF , 921px 1286px #FFF , 1635px 1232px #FFF , 591px 976px #FFF , 1338px 414px #FFF , 1880px 976px #FFF , 842px 1906px #FFF , 154px 253px #FFF , 271px 270px #FFF , 1669px 1089px #FFF , 421px 1254px #FFF , 591px 1448px #FFF , 1751px 804px #FFF , 1327px 1883px #FFF , 1466px 1902px #FFF , 1662px 1896px #FFF , 1406px 215px #FFF , 289px 1911px #FFF , 1923px 218px #FFF , 1060px 914px #FFF , 348px 1181px #FFF , 620px 1846px #FFF , 330px 1889px #FFF , 1356px 1806px #FFF , 396px 1613px #FFF , 456px 811px #FFF , 373px 1940px #FFF , 420px 616px #FFF , 619px 766px #FFF , 1996px 1594px #FFF , 994px 1495px #FFF , 1464px 1205px #FFF , 762px 270px #FFF , 1551px 1773px #FFF , 930px 589px #FFF , 1394px 83px #FFF , 952px 1563px #FFF , 1107px 1967px #FFF , 1093px 789px #FFF , 1870px 1798px #FFF , 863px 424px #FFF , 1115px 1318px #FFF , 1045px 1275px #FFF , 798px 271px #FFF , 1221px 1651px #FFF , 1498px 1975px #FFF , 1872px 942px #FFF , 628px 782px #FFF , 679px 1724px #FFF , 773px 1363px #FFF , 670px 1856px #FFF , 1221px 1663px #FFF , 1426px 95px #FFF , 1350px 1513px #FFF , 456px 1889px #FFF , 411px 1531px #FFF , 1149px 1126px #FFF , 520px 148px #FFF , 277px 1700px #FFF , 1822px 1293px #FFF , 1106px 524px #FFF , 1899px 1297px #FFF , 400px 933px #FFF , 538px 531px #FFF , 1492px 509px #FFF , 1714px 1124px #FFF , 1025px 906px #FFF , 323px 308px #FFF , 336px 1740px #FFF , 29px 210px #FFF , 1987px 1406px #FFF , 1208px 1133px #FFF , 1596px 1721px #FFF , 891px 862px #FFF , 566px 1652px #FFF , 266px 811px #FFF , 1335px 1874px #FFF , 654px 67px #FFF , 816px 1871px #FFF , 1679px 1801px #FFF , 1568px 1927px #FFF , 1447px 1305px #FFF , 542px 1467px #FFF , 1872px 307px #FFF , 1006px 1955px #FFF , 11px 622px #FFF , 320px 1391px #FFF , 1399px 1346px #FFF , 263px 1872px #FFF , 1612px 1351px #FFF , 202px 36px #FFF , 247px 749px #FFF , 796px 1220px #FFF , 418px 240px #FFF , 641px 1286px #FFF , 127px 92px #FFF;
 }
 
-#stars, #stars2, #stars3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* stays in the background */
-  pointer-events: none; /* prevents blocking clicks */
-}
+
 
 @keyframes animStar {
   from {
@@ -512,5 +497,3 @@ html {
     transform: translateY(-2000px);
   }
 }
-
-
